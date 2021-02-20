@@ -1,0 +1,42 @@
+.Nav{
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav > div{
+    width: 50%;
+}
+
+.Nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.Nav-link{
+    color: black;
+    font-size: .7rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: .5rem;
+    transition: .4s ease-in-out;
+}
+
+.Nav-link:hover{
+    background-color: orange;
+    color: white;
+}
+
+#sign-up{
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+}
+
+#logo{
+    width: 8rem;
+}

@@ -1,0 +1,97 @@
+.Footer{
+    background-color: #25201D;
+    color: white;
+    margin-top: 10rem;
+    position: relative;
+    min-height: 80vh;
+    padding-bottom: 5rem;
+}
+
+#f-1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+}
+
+#f-1 > div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#f-1 > div > h1,
+#f-1 > div > p{
+    width: 60%;
+    text-align: left;
+}
+
+#footer-image{
+    width: 25rem;
+    position: absolute;
+    top: -4rem;
+    left: 15%;
+}
+
+#input-holder{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    width: 45%;
+}
+
+#footer-button{
+    background-color: white;
+    border: none;
+    padding: .4rem .7rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#footer-input{
+    background-color: transparent;
+    border: none;
+    padding: .4rem .7rem;
+}
+
+#f-2{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    padding-top: 10rem;
+}
+
+#f-2 > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+#f-2 > div > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: unset;
+}
+
+#f-2 > div > ul > li{
+    margin-bottom: .5rem;
+}
+
+.Socials{
+    background-color: white;
+    padding: .3rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+    width: .7rem;
+    height: .7rem
+}
+
+#letter{
+    margin-top: 3rem;
+}

@@ -1,0 +1,39 @@
+.Section-A{
+    background-color: white;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+#a-image-background{
+    border-radius: 50%;
+    background-color: #FFF8F5;
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+}
+
+#a-image{
+    width: 35rem;
+    position: absolute;
+    top: -3rem;
+    right: 2rem;
+}
+
+#a-1{
+    width: auto;
+}
+
+#a-header{
+    width: 20rem;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+#a-p{
+    width: 25rem;
+    text-align: left;
+}
