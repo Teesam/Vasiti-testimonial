@@ -42,7 +42,7 @@
 
 
 
-/* @media only screen and (max-width: 490px){
+@media only screen and (max-width: 490px){
     .Section-A{
         background-color: white;
         height: 60rem;
@@ -68,7 +68,7 @@
         width: 30rem;
         position: absolut;
         top: -3rem;
-        right: 12%;
+        right: 0%;
     }
     
     #a-1{
@@ -86,4 +86,4 @@
         width: 100%;
         text-align: left;
     }
-} */
+}

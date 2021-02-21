@@ -1,6 +1,7 @@
 import React from 'react';
 import './sectionB.css';
 import Bimage from '../../b-image.png';
+import Underline from '../../underline.png';
 
 const SectionB = () => {
     return (
@@ -15,7 +16,10 @@ const SectionB = () => {
                  very good customer service, an all round great experience. I would definately be coming back!
                   I had the best experience shopping with vasiti. Usability of the website was great, very good customer service, 
                   an all round great experience. I would definately be coming back!</p>
-                <h5 id = 'b-share'>SHARE YOUR OWN STORY!</h5>
+                <div id = 'underline-div'>
+                    <h5 id = 'b-share'>SHARE YOUR OWN STORY!</h5>
+                    <img src = { Underline } id = 'underline' />
+                </div>
             </div>
             
         </div>
