@@ -1,8 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './shareStory.css';
 import { Link } from 'react-router-dom';
 
 const ShareStory = () => {
+
+    const [people] = useState([
+        {
+            image: {},
+            name: '',
+            location: '',
+            text: '',
+            status: ''
+
+    }
+])
+
+ const imageHandler = () => {
+
+ }
+
+ const nameHandler = () => {
+     
+}
+
+const locationHandler = () => {
+     
+}
+
+const statusHandler = () => {
+     
+}
+
+
+
+
     return(
         <div className = 'Share-story'>
             <h1>Share your amazing story!</h1>
