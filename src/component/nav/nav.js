@@ -14,7 +14,7 @@ function Nav() {
                     <Link to = '' className = 'Nav-link'>ABOUT US</Link>
                 </li>
                 <li>
-                    <Link to = '' className = 'Nav-link'>STORIES</Link>
+                    <Link to = '/sharestory' className = 'Nav-link'>STORIES</Link>
                 </li>
                 <li>
                     <Link to = '' className = 'Nav-link'>CONTACT</Link>

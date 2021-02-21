@@ -1,0 +1,113 @@
+.ShareStory{
+    padding-top: 10rem;
+}
+
+form{
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 40%;
+}
+
+#file-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#file-input{
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: .5rem 1rem;
+    width: 90%;
+    border-radius: 5px;
+}
+
+#name-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#name-div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.name-input{
+    padding: .5rem 1rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 90%;
+}
+
+#text-area-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+textarea{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+label{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+#radio-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    width: 90%;
+}
+
+#customer-label{
+    margin-right: 1rem;
+    margin-left: .2rem;
+}
+
+#vendor-label{
+    margin-left: .2rem;
+}
+
+#location-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#location-input{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#button-div{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#share-button{
+    background-color: #FF5C00;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#share-button:hover{
+    background-color: #f57e3a;
+}

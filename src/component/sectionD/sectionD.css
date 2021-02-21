@@ -1,26 +1,31 @@
 .Section-D{
     background-color: #FFF8F5;
-    height: 70vh;
+    height: 35rem;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     padding-top: 8rem;
     z-index: 100;
     color: black;
     overflow: hidden;
+    padding-bottom: 5rem;
+    margin-top: 10rem;
 }
 
 #d-image-background{
     border-radius: 50%;
     background-color: rgba(255, 92, 0, 0.03);
-    width: 38rem;
-    height: 38rem;
+    width: 30rem;
+    height: 30rem;
+    position: relative;
     /* margin-top: 1.5rem; */
 }
 
 #d-image{
-    width: 35rem;
+    width: 30rem;
     margin-top: 3rem;
+    position: absolute;
+    top: 1%;
+    left: 10%;
 }
 
 #d-2{
@@ -33,6 +38,7 @@
 
 #d-header{
     text-align: left;
+    margin-top: 2rem;
 }
 
 #d-p{
@@ -54,4 +60,68 @@
     text-align: left;
     margin-top: 3rem;
     color: #FF5C00;
+}
+
+
+
+@media only screen and (max-width: 490px){
+    .Section-D{
+        background-color: #FFF8F5;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 8rem;
+        z-index: 100;
+        color: black;
+        overflow: hidden;
+    }
+    
+    #d-image-background{
+        border-radius: 50%;
+        background-image: url('../../d-mobile-image.png');
+        background-repeat: no-repeat;
+        width: 16rem;
+        height: 16rem;
+    }
+    
+    #d-image{
+        width: 30rem;
+        margin-top: 3rem;
+        display: none;
+    }
+    
+    #d-2{
+        width: 50%;
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #d-header{
+        text-align: left;
+    }
+    
+    #d-p{
+        width: 25rem;
+        text-align: left;
+    }
+    
+    #customer{
+        padding: .5rem;
+        border: 1px solid #FF5C00;
+        border-radius: 10px;
+        width: 5rem;
+        margin-bottom: 2rem;
+        color: #FF5C00;
+    }
+    
+    #d-share{
+        font-weight: lighter;
+        text-align: left;
+        margin-top: 3rem;
+        color: #FF5C00;
+    }
 }

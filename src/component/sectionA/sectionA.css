@@ -11,13 +11,13 @@
 #a-image-background{
     border-radius: 50%;
     background-color: #FFF8F5;
-    width: 40rem;
-    height: 40rem;
+    width: 32rem;
+    height: 33rem;
     position: relative;
 }
 
 #a-image{
-    width: 35rem;
+    width: 26rem;
     position: absolute;
     top: -3rem;
     right: 2rem;
@@ -36,4 +36,54 @@
 #a-p{
     width: 25rem;
     text-align: left;
+    margin-top: 1rem;
 }
+
+
+
+
+/* @media only screen and (max-width: 490px){
+    .Section-A{
+        background-color: white;
+        height: 60rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        margin-top: 1rem;
+        overflow: hidden;
+    }
+    
+    #a-image-background{
+        border-radius: 50%;
+        background-color: #FFF8F5;
+        min-width: 30rem;
+        min-height: 30rem;
+        position: relative;
+        margin-top: 10rem;
+    }
+    
+    #a-image{
+        width: 30rem;
+        position: absolut;
+        top: -3rem;
+        right: 12%;
+    }
+    
+    #a-1{
+        width: 80vw;
+    }
+    
+    #a-header{
+        width: 89%;
+        text-align: left;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    #a-p{
+        width: 100%;
+        text-align: left;
+    }
+} */

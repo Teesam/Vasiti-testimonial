@@ -30,3 +30,42 @@ li{
 .Link:hover{
     color: orange;
 }
+
+
+
+
+@media only screen and (max-width: 490px){
+    .SubNav{
+        background-color: white;
+        box-shadow: 0px 5px 10px grey;
+        height: 3rem;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .SubNav > ul{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    li{
+        list-style-type: none;
+    }
+    
+    .Link{
+        text-decoration: none;
+        color: black;
+        list-style-type: none;
+        font-weight: bold;
+        font-size: .7rem;
+        transition: .4s ease-in-out;
+    }
+    
+    .Link:hover{
+        color: orange;
+    }
+    
+}
